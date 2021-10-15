@@ -1,0 +1,30 @@
+.nz-fale-conosco {
+    &__grid {
+        background-image: url("../../../../../assets/image/banner.jpg");
+        display: flex;
+        justify-content: center;
+        padding-top: 72px;
+        padding-bottom: 64px;
+        &__text {
+            width: 450px;
+            margin-right: 48px;
+            h2 {
+                color: white;
+                margin-bottom: 24px;
+            }
+            p {
+                color: white;
+            }
+        }
+        &__button {
+            margin-top: 8px;
+            .nz-button {
+                padding: 6px 65px;
+            }
+            .trans {
+                border: 2px solid white;
+                margin-top: 24px;
+            }
+        }
+    }
+}

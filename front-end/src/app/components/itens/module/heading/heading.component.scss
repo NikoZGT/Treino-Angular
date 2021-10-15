@@ -1,0 +1,55 @@
+.nz-heading-title {
+    position: relative;
+    margin-bottom: 56px;
+    &__text {
+        margin-bottom: 32px;
+        strong {
+            font-size: 16px;
+            display: block;
+            text-transform: uppercase;
+            color: #2e3842;
+            letter-spacing: 0.225em;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        p {
+            margin-top: 16px;
+            font-size: 14px;
+            color: #4e4852;
+        }
+        small {
+            color: #8e8892;
+            font-size: 14px;
+            margin-bottom: 29px;
+        }
+    }
+    &__text-small {
+        strong {
+            font-size: 13px;
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: 0.225em;
+            font-weight: 800;
+            margin-bottom: 13px;
+            color: #2e3842;
+        }
+        p {
+            margin-top: 14px;
+            font-size: 14px;
+            color: #4e4852;
+        }
+        small {
+            font-size: 14px;
+            color: #8e8892;
+            margin-bottom: 29px;
+        }
+    }
+}
+
+.nz-heading {
+    position: relative;
+    margin-bottom: 56px;
+    h3 {
+        font-size: calc(1.3rem + 0.6vw);
+    }
+}

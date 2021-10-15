@@ -1,0 +1,26 @@
+.nz-buttons-type {
+    ul {
+        display: inline-flex;
+        width: 100%;
+        padding-left: 0px;
+        margin-left: -12px;
+        li {
+            width: 100%;
+            list-style: none;
+            padding: 0px 12px;
+        }
+    }
+    a {
+        display: inline-block;
+        margin: 12px 24px;
+    }
+    strong {
+        font-size: 16px;
+        display: block;
+        text-transform: uppercase;
+        color: #2e3842;
+        letter-spacing: 0.225em;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+}

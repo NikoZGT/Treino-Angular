@@ -1,0 +1,27 @@
+.nz-lists {
+    strong {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+        display: block;
+    }
+    b {
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+        display: block;
+    }
+    ul,
+    ol {
+        padding-left: 18px;
+    }
+    .alternate {
+        max-width: 400px;
+        padding-left: 0px;
+        li {
+            list-style: none;
+            border-bottom: 1px solid rgb(218, 218, 218);
+            padding: 7px 0px 7px 0px;
+        }
+    }
+}

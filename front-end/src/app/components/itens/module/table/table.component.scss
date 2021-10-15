@@ -1,0 +1,29 @@
+.nz-table {
+    table {
+        width: 100%;
+        td {
+            padding: 0.75em 0.75em;
+            border: solid 1px #dfdfdf;
+        }
+        tr:nth-child(2n + 2) {
+            background-color: rgba(0, 0, 0, 0.0375);
+        }
+        th {
+            color: #2e3842;
+            font-size: 0.9em;
+            font-weight: 600;
+            padding: 0 0.75em 0.75em 0.75em;
+            text-align: left;
+        }
+        thead{
+            border-bottom: solid 2px #fff;
+            border-color: #dfdfdf;
+        }
+        margin-bottom: 24px;
+    }
+    tfoot{
+        td{
+            border: none;
+        }
+    }
+}

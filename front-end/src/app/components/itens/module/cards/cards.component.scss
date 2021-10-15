@@ -1,0 +1,81 @@
+.nz-cards {
+    h2 {
+        margin: 0 auto;
+        width: max-content;
+        color: white;
+        position: relative;
+        padding-bottom: 16px;
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: 0;
+            border-bottom: 2px solid #4a4d88;
+            width: 100%;
+            height: 1px;
+        }
+    }
+    p {
+        margin: 0 auto;
+        width: max-content;
+        color: white;
+        padding-bottom: 46px;
+        padding-top: 12px;
+    }
+    &__list {
+        padding: 56px;
+        background-color: #505393;
+        .row {
+            .col-4 {
+                padding: 0;
+                .nz-cards__list__item {
+                    width: auto;
+                }
+            }
+        }
+        &__item {
+            width: 391px;
+            height: 200px;
+            display: block;
+            padding: 48px;
+            padding-left: 72px;
+            background-color: #505393;
+            h3 {
+                color: white;
+                font-weight: 600;
+                font-size: 20px;
+                display: inline-block;
+            }
+            p {
+                width: 250px;
+                margin-left: 0px;
+                color: white;
+                font-size: 14px;
+            }
+            i {
+                display: inline-block;
+                margin-right: 18px;
+                margin-left: -34px;
+                color: rgb(0, 255, 157);
+            }
+        }
+    }
+    .bg-blue10 {
+        background-color: #4d508e;
+    }
+    .bg-blue20 {
+        background-color: #4a4d89;
+    }
+    .bg-blue30 {
+        background-color: #484a83;
+    }
+    .bg-blue40 {
+        background-color: #45477e;
+    }
+    .bg-blue50 {
+        background-color: #42447a;
+    }
+    .bg-blue60 {
+        background-color: #3f4175;
+    }
+}

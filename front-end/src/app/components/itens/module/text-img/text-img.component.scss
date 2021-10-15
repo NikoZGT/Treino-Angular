@@ -1,0 +1,35 @@
+.nz-text-img {
+    h5 {
+        font-size: 13px;
+        display: block;
+        text-transform: uppercase;
+        color: #2e3842;
+        letter-spacing: 0.225em;
+        font-weight: 800;
+        margin-bottom: -16px;
+        margin-top: 24px;
+    }
+    p {
+        display: inline-block;
+        color: #4e4852;
+        font-size: 16px;
+        letter-spacing: 1.2px;
+        line-height: 26px;
+        margin-top: 36px;
+        .image {
+            margin-right: 36px;
+            margin-bottom: 16px;
+            float: left;
+            display: inline-block;
+            img {
+                border-radius: 6px;
+            }
+            &.right {
+                float: right;
+                margin-right: 0px;
+                margin-bottom: 16px;
+                margin-left: 36px;
+            }
+        }
+    }
+}

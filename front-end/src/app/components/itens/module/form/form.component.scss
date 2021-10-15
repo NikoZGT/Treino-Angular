@@ -1,0 +1,128 @@
+.nz-form {
+    margin: 48px 0px;
+    ul {
+        padding-left: 0px;
+        width: 100%;
+        display: inline-flex;
+        margin-bottom: 24px;
+        li {
+            list-style: none;
+            width: 100%;
+            display: inline-flex;
+        }
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 12px;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.0375);
+        border: none;
+        border-radius: 4px;
+        margin-left: 0px;
+        margin-right: 0px;
+        box-sizing: border-box;
+        &:focus {
+            outline: none;
+        }
+    }
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.0375);
+        border: none;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        &:focus {
+            outline: none;
+        }
+    }
+    .radio {
+        input {
+            height: 26px;
+            width: 26px;
+            border-radius: 100%;
+            background: rgba(0, 0, 0, 0.0375);
+            outline: none;
+            border: none;
+            &:checked {
+                background: #2e3842;
+                outline: none;
+                border: none;
+                &:after {
+                    content: "";
+                    display: block;
+                    background-image: url("data:image/svg+xml,%3Csvg width='16' height='12' viewBox='0 0 16 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.71 1.20986C14.5222 1.02055 14.2666 0.914062 14 0.914062C13.7333 0.914062 13.4777 1.02055 13.29 1.20986L5.83997 8.66986L2.70997 5.52986C2.44738 5.2762 2.06941 5.1819 1.71844 5.28248C1.36748 5.38306 1.09682 5.66324 1.00844 6.01748C0.920065 6.37172 1.02738 6.7462 1.28997 6.99986L5.12997 10.8399C5.31774 11.0292 5.57334 11.1357 5.83997 11.1357C6.10661 11.1357 6.36221 11.0292 6.54997 10.8399L14.71 2.67986C14.9152 2.49055 15.0319 2.22406 15.0319 1.94486C15.0319 1.66566 14.9152 1.39918 14.71 1.20986Z' fill='white'/%3E%3C/svg%3E%0A");
+                    height: 15px;
+                    width: 15px;
+                    background-repeat: no-repeat;
+                    margin-top: 7px;
+                    margin-left: 5px;
+                }
+            }
+            &:focus {
+                border: none;
+                outline: none;
+                box-shadow: none;
+            }
+        }
+        label {
+            margin-top: 4px;
+            margin-left: 12px;
+        }
+    }
+    .checkbox {
+        input {
+            height: 26px;
+            width: 26px;
+            background: rgba(0, 0, 0, 0.0375);
+            outline: none;
+            border: none;
+            &:checked {
+                background: #2e3842;
+                outline: none;
+                border: none;
+                &:after {
+                    content: "";
+                    display: block;
+                    background-image: url("data:image/svg+xml,%3Csvg width='16' height='12' viewBox='0 0 16 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.71 1.20986C14.5222 1.02055 14.2666 0.914062 14 0.914062C13.7333 0.914062 13.4777 1.02055 13.29 1.20986L5.83997 8.66986L2.70997 5.52986C2.44738 5.2762 2.06941 5.1819 1.71844 5.28248C1.36748 5.38306 1.09682 5.66324 1.00844 6.01748C0.920065 6.37172 1.02738 6.7462 1.28997 6.99986L5.12997 10.8399C5.31774 11.0292 5.57334 11.1357 5.83997 11.1357C6.10661 11.1357 6.36221 11.0292 6.54997 10.8399L14.71 2.67986C14.9152 2.49055 15.0319 2.22406 15.0319 1.94486C15.0319 1.66566 14.9152 1.39918 14.71 1.20986Z' fill='white'/%3E%3C/svg%3E%0A");
+                    height: 15px;
+                    width: 15px;
+                    background-repeat: no-repeat;
+                    margin-top: 7px;
+                    margin-left: 5px;
+                }
+            }
+            &:focus {
+                border: none;
+                outline: none;
+                box-shadow: none;
+            }
+        }
+        label {
+            margin-top: 4px;
+            margin-left: 12px;
+        }
+    }
+    textarea {
+        background: rgba(0, 0, 0, 0.0375);
+        width: 100%;
+        resize: none;
+        border: none;
+        outline: none;
+        height: 160px;
+        padding: 18px;
+    }
+    input[type="text"] {
+        margin-right: 20px;
+    }
+    a {
+        display: inline-block;
+        margin-right: 16px;
+        margin-top: 20px;
+    }
+}
